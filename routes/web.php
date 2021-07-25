@@ -6,6 +6,8 @@ use App\Http\Controllers\HomeController;
 
 use App\Http\Controllers\UserProfile;
 use App\Http\Controllers\AdminBlog;
+use App\Http\Controllers\AdminProjectController;
+use App\Http\Controllers\ProjectController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,21 +21,23 @@ use App\Http\Controllers\AdminBlog;
 */
 
 //user
-Route::get('/',[HomeController::class,'index']);
-Route::get('/addblog',[BlogController::class,'index'])->name('addblog');
-Route::post('/addblog',[BlogController::class,'store'])->name('addimage');
-Route::get('/allblog',[BlogController::class,'allblog']);
-Route::get('/view/blog/{id}',[BlogController::class,'singleblog']);
-Route::get('/',[HomeController::class,'someblog']);
-Route::get('/profile',[UserProfile::class,'profile']);
+Route::get('/', [HomeController::class, 'show']);
+Route::get('/allproject', [ProjectController::class, 'allproject'])->name('allproject');
+Route::get('/addproject', [ProjectController::class, 'addproject']);
+Route::post('/createProject', [ProjectController::class, 'store'])->name('createProject');
+Route::get('/view/project/{id}', [ProjectController::class, 'singleproject']);
+
+
+Route::get('/addblog', [BlogController::class, 'index'])->name('addblog');
+Route::post('/addblog', [BlogController::class, 'store'])->name('addimage');
+Route::get('/allblog', [BlogController::class, 'allblog']);
+Route::get('/view/blog/{id}', [BlogController::class, 'singleblog']);
+Route::get('/profile', [UserProfile::class, 'profile']);
 //Route::get('/profile',[UserProfile::class,'profileinformation']);
 
 
 Route::get('addcircular', function () {
     return view('user.addcircular');
-});
-Route::get('addproject', function () {
-    return view('user.addproject');
 });
 
 Route::get('addquestion', function () {
@@ -41,9 +45,7 @@ Route::get('addquestion', function () {
 });
 
 
-Route::get('allproject', function () {
-    return view('user.allproject');
-});
+
 
 Route::get('allquestion', function () {
     return view('user.allquestion');
@@ -106,14 +108,11 @@ Route::middleware(['auth:sanctum', 'verified', 'authadmin'])->get('/admin/dashbo
 
 
 
-Route::group(['prefix'=>'admin'], function() {
-    Route::group(['middleware'=>'authadmin'], function() {
+Route::group(['prefix' => 'admin'], function () {
+    Route::group(['middleware' => 'authadmin'], function () {
 
-        Route::get('/delete/{id}',[AdminBlog::class,'delete']);
-
-        Route::get('/project', function () {
-            return view('admin.project');
-        });
+        Route::get('/deleteblog/{id}', [AdminBlog::class, 'delete']);
+        Route::get('/deleteproject/{id}', [AdminProjectController::class, 'delete']);
 
         Route::get('/question', function () {
             return view('admin.question');
@@ -124,14 +123,19 @@ Route::group(['prefix'=>'admin'], function() {
         });
 
 
-        Route::get('/blog',[AdminBlog::class,'adminblog']);
+        Route::get('/blog', [AdminBlog::class, 'adminblog']);
 
-        Route::get('/dashboard',[AdminBlog::class,'frontpageblog']);
+        Route::get('/dashboard', [AdminBlog::class, 'frontpageblog']);
 
-        Route::get('/edit/{id}',[AdminBlog::class,'edit']); 
-        Route::post('/update/blog/{id}',[AdminBlog::class,'update']);
-        
+        Route::get('/editblog/{id}', [AdminBlog::class, 'edit']);
+        Route::post('/update/blog/{id}', [AdminBlog::class, 'update']);
+
+
+        Route::get('/project', [AdminProjectController::class, 'adminproject']);
+
+        //Route::get('/dashboard', [AdminProjectController::class, 'frontpageproject']);
+
+        Route::get('/editproject/{id}', [AdminProjectController::class, 'edit']);
+        Route::post('/update/project/{id}', [AdminProjectController::class, 'update']);
     });
 });
-
-

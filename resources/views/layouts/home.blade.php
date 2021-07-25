@@ -31,7 +31,7 @@
 </head>
 
 <body>
-  
+
     <header>
         <div class="header-area ">
             <div class="header-top_area">
@@ -42,41 +42,40 @@
                                 <div class="text_wrap">
                                     <p><span>+880166 253 232</span> </p>
                                 </div>
-                            <div class="text_wrap">
-                                <!-- -------------------------------------------- -->
-                              @guest
-                            @if (Route::has('login'))
-                               <li>
-                                    <a href="{{ route('login') }}">{{ __('Login') }}</a>
-                                </li>
-                            @endif
-                            
-                            @if (Route::has('register'))
-                                <li>
-                                    <a href="{{ route('register') }}">{{ __('Register') }}</a>
-                                </li>
-                            @endif
-                            
-                        @else
-                            <li class="nav-item dropdown">
-                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                Welcome {{ Auth::user()->name }}
-                                </a>
+                                <div class="text_wrap">
+                                    <!-- -------------------------------------------- -->
+                                    @guest
+                                    @if (Route::has('login'))
+                                    <li>
+                                        <a href="{{ route('login') }}">{{ __('Login') }}</a>
+                                    </li>
+                                    @endif
 
-                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="{{ route('logout') }}"
-                                       onclick="event.preventDefault();
+                                    @if (Route::has('register'))
+                                    <li>
+                                        <a href="{{ route('register') }}">{{ __('Register') }}</a>
+                                    </li>
+                                    @endif
+
+                                    @else
+                                    <li class="nav-item dropdown">
+                                        <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                            Welcome {{ Auth::user()->name }}
+                                        </a>
+
+                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
-                                        {{ __('Logout') }}
-                                    </a>
+                                                {{ __('Logout') }}
+                                            </a>
 
-                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-                                        @csrf
-                                    </form>
-                                </div>
-                            </li>
-                        @endguest
-                                <!-- -------------------------------------------- -->
+                                            <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                                @csrf
+                                            </form>
+                                        </div>
+                                    </li>
+                                    @endguest
+                                    <!-- -------------------------------------------- -->
                                 </div>
                             </div>
                         </div>
@@ -99,22 +98,22 @@
                                     <div class="main-menu  d-none d-lg-block">
                                         <nav>
                                             <ul id="navigation">
-                                                <li class="btn"><a  href="/">home</a></li>
+                                                <li class="btn"><a href="/">home</a></li>
                                                 <li><a href="/allproject">Projects</a></li>
                                                 <li><a href="/allblog">Blog</a></li>
                                                 <li><a href="/allquestion">Questions</a></li>
                                                 <li><a href="/allcircular">Circular</a></li>
-                                                <li><a href="/profile">My Profile</a></li> 
+                                                <li><a href="/profile">My Profile</a></li>
                                             </ul>
                                         </nav>
                                     </div>
-                                   
-<div>
-<form class="example">
-  <input type="text" placeholder="Search......" name="search2">
-  <button type="submit"><i class="fa fa-search"></i></button>
-</form>
-</div>
+
+                                    <div>
+                                        <form class="example">
+                                            <input type="text" placeholder="Search......" name="search2">
+                                            <button type="submit"><i class="fa fa-search"></i></button>
+                                        </form>
+                                    </div>
 
 
                                 </div>
@@ -134,14 +133,14 @@
         @yield('content')
     </main>
 
-    
+
     <!-- footer start -->
-   <footer class="footer">
+    <footer class="footer">
         <div class="footer_top">
             <div class="container">
                 <div class="newsLetter_wrap">
                     <div class="row justify-content-between">
-                        
+
                         <div class="col-md-12 col-lg-5">
                             <div class="footer_widget">
                                 <h3 class="footer_title">
@@ -171,7 +170,7 @@
                                         </li>
                                     </ul>
                                 </div>
-    
+
                             </div>
                         </div>
                     </div>
@@ -183,33 +182,33 @@
                                 About Us
                             </h3>
                             <ul>
-                                
+
                                 <li><a href="#">About Us</a></li>
-                                
+
                                 <li><a href="#">Our Varsity</a></li>
                                 <li><a href="#">Our Department</a></li>
-                                
+
                                 <li><a href="#">Our Policy</a></li>
                             </ul>
                         </div>
                     </div>
-                   
+
                     <div class="col-xl-6 col-md-6 col-lg-6">
                         <div class="footer_widget">
                             <h3 class="footer_title">
                                 Support
                             </h3>
                             <ul>
-                                
+
                                 <li><a href="#">Support</a></li>
                                 <li><a href="#">Contact Us</a></li>
                                 <li><a href="#">System Requirements</a></li>
                                 <li><a href="#">Site feedback</a></li>
-                                
+
                             </ul>
                         </div>
                     </div>
-                   
+
                 </div>
             </div>
         </div>
@@ -219,47 +218,47 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <p class="copy_right text-center">
-                            <p>
-                                Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Hasnur Jahan</a>
-                            </p>
+                        <p style="text-align: center;">
+                            Copyright © All rights reserved by ACNA Team
+                        </p>
                         </p>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-  <!-- footer end  -->
+    <!-- footer end  -->
 
 
-   <!-- JS here -->
-   <script src="{{asset('frontend/js/vendor/modernizr-3.5.0.min.js')}}"></script>
-   <script src="{{asset('frontend/js/vendor/jquery-1.12.4.min.js')}}"></script>
-   <script src="{{asset('frontend/js/popper.min.js')}}"></script>
-   <script src="{{asset('frontend/js/bootstrap.min.js')}}"></script>
-   <script src="{{asset('frontend/js/owl.carousel.min.js')}}"></script>
-   <script src="{{asset('frontend/js/isotope.pkgd.min.js')}}"></script>
-   <script src="{{asset('frontend/js/ajax-form.js')}}"></script>
-   <script src="{{asset('frontend/js/waypoints.min.js')}}"></script>
-   <script src="{{asset('frontend/js/jquery.counterup.min.js')}}"></script>
-   <script src="{{asset('frontend/js/imagesloaded.pkgd.min.js')}}"></script>
-   <script src="{{asset('frontend/js/scrollIt.js')}}"></script>
-   <script src="{{asset('frontend/js/jquery.scrollUp.min.js')}}"></script>
-   <script src="{{asset('frontend/js/wow.min.js')}}"></script>
-   <script src="{{asset('frontend/js/nice-select.min.js')}}"></script>
-   <script src="{{asset('frontend/js/jquery.slicknav.min.js')}}"></script>
-   <script src="{{asset('frontend/js/jquery.magnific-popup.min.js')}}"></script>
-   <script src="{{asset('frontend/js/plugins.js')}}"></script>
-   <script src="{{asset('frontend/js/gijgo.min.js')}}"></script>
+    <!-- JS here -->
+    <script src="{{asset('frontend/js/vendor/modernizr-3.5.0.min.js')}}"></script>
+    <script src="{{asset('frontend/js/vendor/jquery-1.12.4.min.js')}}"></script>
+    <script src="{{asset('frontend/js/popper.min.js')}}"></script>
+    <script src="{{asset('frontend/js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('frontend/js/owl.carousel.min.js')}}"></script>
+    <script src="{{asset('frontend/js/isotope.pkgd.min.js')}}"></script>
+    <script src="{{asset('frontend/js/ajax-form.js')}}"></script>
+    <script src="{{asset('frontend/js/waypoints.min.js')}}"></script>
+    <script src="{{asset('frontend/js/jquery.counterup.min.js')}}"></script>
+    <script src="{{asset('frontend/js/imagesloaded.pkgd.min.js')}}"></script>
+    <script src="{{asset('frontend/js/scrollIt.js')}}"></script>
+    <script src="{{asset('frontend/js/jquery.scrollUp.min.js')}}"></script>
+    <script src="{{asset('frontend/js/wow.min.js')}}"></script>
+    <script src="{{asset('frontend/js/nice-select.min.js')}}"></script>
+    <script src="{{asset('frontend/js/jquery.slicknav.min.js')}}"></script>
+    <script src="{{asset('frontend/js/jquery.magnific-popup.min.js')}}"></script>
+    <script src="{{asset('frontend/js/plugins.js')}}"></script>
+    <script src="{{asset('frontend/js/gijgo.min.js')}}"></script>
 
-   <!--contact js-->
-   <script src="{{asset('frontend/js/contact.js')}}"></script>
-   <script src="{{asset('frontend/js/jquery.ajaxchimp.min.js')}}"></script>
-   <script src="{{asset('frontend/js/jquery.form.js')}}"></script>
-   <script src="{{asset('frontend/js/jquery.validate.min.js')}}"></script>
-   <script src="{{asset('frontend/js/mail-script.js')}}"></script>
+    <!--contact js-->
+    <script src="{{asset('frontend/js/contact.js')}}"></script>
+    <script src="{{asset('frontend/js/jquery.ajaxchimp.min.js')}}"></script>
+    <script src="{{asset('frontend/js/jquery.form.js')}}"></script>
+    <script src="{{asset('frontend/js/jquery.validate.min.js')}}"></script>
+    <script src="{{asset('frontend/js/mail-script.js')}}"></script>
 
-   <script src="{{asset('frontend/js/main.js')}}"></script>
-   @livewireScripts
+    <script src="{{asset('frontend/js/main.js')}}"></script>
+    @livewireScripts
 
 
 </body>
