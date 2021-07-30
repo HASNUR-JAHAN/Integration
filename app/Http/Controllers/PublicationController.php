@@ -26,4 +26,5 @@ class PublicationController extends Controller
         return view('user.publicationdetails');
 
     }
+    
 }

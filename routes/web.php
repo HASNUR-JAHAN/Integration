@@ -67,12 +67,15 @@ Route::get('oneblog', function () {
     return view('user.oneblog');
 });
 
-Route::get('allproject', function () {
-    return view('user.allproject');
-});
+
 
 Route::get('allquestion', function () {
     return view('user.allquestion');
+});
+
+
+Route::get('allcircular', function () {
+    return view('user.allcircular');
 });
 
 

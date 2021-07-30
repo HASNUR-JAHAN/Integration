@@ -16,7 +16,7 @@
                 <div class="col-xl-12">
                     <div class="bradcam_text">
                        
-                        <h5 class="anu"><a href="/addquestion">ADD NEW PUBLICATIO</a></h5>
+                        <h5 class="anu"><a href="/addquestion">ADD NEW PUBLICATION</a></h5>
                     </div>
                 </div>
             </div>
@@ -27,7 +27,6 @@
 
 
     <!--================Blog Area =================-->
-
     <div class="recent_news_area section__padding">
     
     <div class="container">
@@ -35,84 +34,89 @@
                 <div class="col-lg-8 col-md-10">
                     <div class="section_title text-center mb-70">
 
-                        <h1>PUBLICATIONS</h1>
+                        <h2>Publications make scientific information publically available, and allow the rest of the academic audience to evaluate the quality of the research..</h2>
                     </div>
                 </div>
             </div>
-            <div class="row">
-            <div class="col-md-4">
+        <div class="row">
+            <div class="col-md-8">
                     <div class="single__news">
                         <div class="thumb">
 
-                            <img src="{{asset('frontend/img/news/1.png')}}" alt="">
+                            <img src="{{asset('frontend/img/news/1.png')}}" style="height:30%;width:80%;!" alt="">
 
                             <span class="badge bandge_2">By: Hasnur Jahan</span>
                         </div>
                         <div>
 
-                            <h4 class="para">Those Other College Expenses You
-                                Aren’t Thinking About</h4>
+                            <h1>Those Other College Expenses You
+                                Aren’t Thinking About</h1>
                             </a>
                             <p class="d-flex align-items-center">
                                 <span><i class="flaticon-calendar-1"></i> May 10, 2020</span><p>
 
                             <div>
-                                <a href="/questiondetails" class="boxed-btn5">View Details</a>
+                                <a href="/publicationdetails" class="boxed-btn5">View Details</a>
                             </div>
                             </p>
 
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-8">
                     <div class="single__news">
                         <div class="thumb">
 
-                            <img src="{{asset('frontend/img/news/1.png')}}" alt="">
+                            <img src="{{asset('frontend/img/news/1.png')}}" style="height:30%;width:80%;!" alt="">
 
                             <span class="badge bandge_2">By: Hasnur Jahan</span>
                         </div>
                         <div>
 
-                            <h4 class="para">Those Other College Expenses You
-                                Aren’t Thinking About</h4>
+                            <h1>Those Other College Expenses You
+                                Aren’t Thinking About</h1>
                             </a>
                             <p class="d-flex align-items-center">
                                 <span><i class="flaticon-calendar-1"></i> May 10, 2020</span><p>
 
                             <div>
-                                <a href="/questiondetails" class="boxed-btn5">View Details</a>
+                                <a href="/publicationdetails" class="boxed-btn5">View Details</a>
                             </div>
                             </p>
 
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-8">
                     <div class="single__news">
                         <div class="thumb">
 
-                            <img src="{{asset('frontend/img/news/1.png')}}" alt="">
+                            <img src="{{asset('frontend/img/news/1.png')}}" style="height:30%;width:80%;!" alt="">
 
                             <span class="badge bandge_2">By: Hasnur Jahan</span>
                         </div>
                         <div>
-                            <h4 class="para">Those Other College Expenses You
-                                Aren’t Thinking About</h4>
-                            
+
+                            <h1>Those Other College Expenses You
+                                Aren’t Thinking About</h1>
+                            </a>
                             <p class="d-flex align-items-center">
                                 <span><i class="flaticon-calendar-1"></i> May 10, 2020</span><p>
 
                             <div>
-                                <a href="/questiondetails" class="boxed-btn5">View Details</a>
+                                <a href="/publicationdetails" class="boxed-btn5">View Details</a>
                             </div>
                             </p>
                         </div>
                     </div>
                 </div>
+
             </div>
+            
         </div>
+        
     </div>
+</div>
 
 
 

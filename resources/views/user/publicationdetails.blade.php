@@ -7,7 +7,7 @@
           <div class="row">
               <div class="col-xl-12">
                   <div class="bradcam_text">
-                      <h3>QUESTION DETAILS</h3>
+                      <h3>PUBLICATION DETAILS</h3>
                   </div>
               </div>
           </div>
@@ -16,7 +16,7 @@
                 <div class="col-xl-12">
                     <div class="bradcam_text">
                        
-                        <h5 class="anu"><a href="/addquestion">ADD NEW QUESTION</a></h5>
+                        <h5 class="anu"><a href="/addpublication">ADD NEW PUBLICATION</a></h5>
                     </div>
                 </div>
             </div>
@@ -24,24 +24,6 @@
       </div>
   </div>
   <!-- bradcam_area_end  -->
-     <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section text-center">
-                        <h2>CATEGORY</h2>
-                    </div>
-                </div>
-            </div>
-           
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section_title text-center">
-                        <h3>WEBSITE</h3>
-                    </div>
-                </div>
-            </div>
-           
-        </div>
    <!--================Blog Area =================-->
    
    
@@ -55,42 +37,26 @@
                   </div>
                                                         
                  <div class="d-flex align-items-center">
-                    <h5>   
-                         <a href="#">Emilly Blunt</a>
-                    </h5><br>
-                    <p class="date">December 4, 2017 at 3:12 pm </p>
+                    <h3>   
+                         <a href="#">Emilly Blunt</a></h3>
+                    
                  </div>
-                             
+                 <h5>December 4, 2017 at 3:12 pm </h5>        
           
                   <div class="blog_details" name="questionname">
-                     <h2>How To Make a website step by step?</h2>
-                                      
+                     <h1>How To Make a website step by step?</h1>
+                     <h4>How To Make a website step by step?</h4>                                      
                                          
-                    
-                     <h3>Provided Link</h3>
+                    <br>
+                     <h3> Get the Documentation</h3>
                      <div class="quote-wrapper">
                         <div class="quotes" name="projectlink">
                            
                         </div>
                      </div>
-                     
-                     <h3>Provided Documentation
-                     </h3>
-                     <div class="quote-wrapper">
-                        <div class="quotes" name="projectdocument">
-                           
-                        </div>
-                     </div>
-                     
-                  </div>
                   
-                  
-                  
-                  
-                  
-               </div>
-               
-              
+                  </div>                       
+               </div>        
               <div class="comment-form">
                   <h4>Leave a Reply</h4>
                   <form class="form-contact comment_form" action="#" id="commentForm">
@@ -105,7 +71,7 @@
                         
                      </div>
                      <div class="form-group">
-                        <button type="submit" class="button button-contactForm btn_1 boxed-btn">Send Message</button>
+                        <button type="submit" class="button button-contactForm btn_1 boxed-btn">Send</button>
                      </div>
                   </form>
                </div>
@@ -129,10 +95,8 @@
                                     <h5>
                                        <a href="#">Emilly Blunt</a>
                                     </h5>
-                                  
                                     <p class="date">December 4, 2017 at 3:12 pm </p>
                                  </div>
-                                  
                               </div>
                            </div>
                         </div>
@@ -206,41 +170,7 @@
                            type="submit">Search</button>
                      </form>
                   </aside>
-                  <aside class="single_sidebar_widget post_category_widget">
-                     <h4 class="widget_title">Category</h4>
-                     <ul class="list cat-list">
-                        <li>
-                           <a href="/onequestion" class="d-flex">
-                              <p>Website</p>
-                              <p>(10)</p>
-                           </a>
-                        </li>
-                        <li>
-                           <a href="/onequestion" class="d-flex">
-                              <p>App</p>
-                              <p>(10)</p>
-                           </a>
-                        </li>
-                        <li>
-                           <a href="/onequestion" class="d-flex">
-                              <p>Design</p>
-                              <p>(11)</p>
-                           </a>
-                        </li>
-                        <li>
-                           <a href="/onequestion" class="d-flex">
-                              <p>Artificial Intelligence</p>
-                              <p>(03)</p>
-                           </a>
-                        </li>
-                        <li>
-                           <a href="/onequestion" class="d-flex">
-                              <p>Others</p>
-                              <p>(21)</p>
-                           </a>
-                        </li>
-                     </ul>
-                  </aside>
+                 
                   <aside class="single_sidebar_widget popular_post_widget">
                      <h3 class="widget_title">Recent Post</h3>
                      <div class="media post_item">
