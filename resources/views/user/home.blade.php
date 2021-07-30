@@ -99,7 +99,15 @@
                 </div>
             </div>
         </div>
-        <br>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="course_all_btn text-center">
+                        <a href="/allblog" class="boxed-btn4">View All</a>
+                    </div>
+                </div>
+            </div>
+            <br>
 
 
         <!--Recent Blog area-->
@@ -147,7 +155,7 @@
                     </div>
                 </div>
             </div>
-            <br>
+            
 
             <div class="row">
                 <div class="col-lg-12">
@@ -160,7 +168,109 @@
         </div>
         <br>
 
-        <!--recent question area-->
+       
+       
+       <!-- recent papers area-->
+        
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-10">
+                    <div class="section_title text-center mb-70">
+
+                        <h1>PUBLICATIONS</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="single__news">
+                        <div class="thumb">
+
+                            <img src="{{asset('frontend/img/news/1.png')}}" alt="">
+
+                            <span class="badge bandge_2">Group Study</span>
+                        </div>
+                        <div class="news_info">
+
+                            <h4>Those Other College Expenses You
+                                Aren’t Thinking About</h4>
+
+                            <p class="d-flex align-items-center"> <span><i class="flaticon-calendar-1"></i> May 10, 2020</span>
+
+                                <span> <i class="flaticon-comment"></i> 01 comments</span>
+                            </p>
+                            <div class="space" style="padding-left: 20px">
+                                <a href="/questiondetails" class="boxed-btn5">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="single__news">
+                        <div class="thumb">
+
+                            <img src="{{asset('frontend/img/news/1.png')}}" alt="">
+
+                            <span class="badge bandge_2">Group Study</span>
+                        </div>
+                        <div class="news_info">
+
+                            <h4>Those Other College Expenses You
+                                Aren’t Thinking About</h4>
+                            </a>
+                            <p class="d-flex align-items-center">
+                                <span><i class="flaticon-calendar-1"></i> May 10, 2020</span>
+
+                                <span> <i class="flaticon-comment"></i> 01 comments</span>
+                            <div class="space" style="padding-left: 20px">
+                                <a href="/questiondetails" class="boxed-btn5">View Details</a>
+                            </div>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="single__news">
+                        <div class="thumb">
+
+                            <img src="{{asset('frontend/img/news/2.png')}}" alt="">
+
+                            <span class="badge bandge_2">Hall Life</span>
+                        </div>
+                        <div class="news_info">
+
+                            <h4>Those Other College Expenses You
+                                Aren’t Thinking About</h4>
+                            </a>
+                            <p class="d-flex align-items-center"> <span><i class="flaticon-calendar-1"></i> May 10, 2020</span>
+
+                                <span> <i class="flaticon-comment"></i> 01 comments</span>
+                            </p>
+                            <div class="space" style="padding-left: 20px">
+                                <a href="/questiondetails" class="boxed-btn5">View Details</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="course_all_btn text-center">
+                        <a href="/allquestion" class="boxed-btn4">View All</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <br>
+        
+         <!--recent papers area end-->
+          
+           <!--recent question area-->
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-md-10">

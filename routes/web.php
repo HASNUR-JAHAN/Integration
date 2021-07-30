@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\PublicationController;
 
 use App\Http\Controllers\UserProfile;
 use App\Http\Controllers\AdminBlog;
@@ -35,6 +36,8 @@ Route::get('/view/blog/{id}', [BlogController::class, 'singleblog']);
 Route::get('/profile', [UserProfile::class, 'profile']);
 //Route::get('/profile',[UserProfile::class,'profileinformation']);
 
+
+Route::get('/addpublication',[PublicationController::class,'index'])->name('addpublication');
 
 Route::get('addcircular', function () {
     return view('user.addcircular');
