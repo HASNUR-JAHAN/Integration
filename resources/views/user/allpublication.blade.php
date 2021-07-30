@@ -1,0 +1,147 @@
+@extends('layouts.home')
+
+@section('content')
+
+<div class="bradcam_area breadcam_bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="bradcam_text">
+                        <h3>PUBLICATIONS</h3>
+                    </div>
+                </div>
+            </div>
+            
+             <div class="row">
+                <div class="col-xl-12">
+                    <div class="bradcam_text">
+                       
+                        <h5 class="anu"><a href="/addquestion">ADD NEW PUBLICATIO</a></h5>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- bradcam_area_end  -->
+
+
+    <!--================Blog Area =================-->
+
+    <div class="recent_news_area section__padding">
+    
+    <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-10">
+                    <div class="section_title text-center mb-70">
+
+                        <h1>PUBLICATIONS</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+            <div class="col-md-4">
+                    <div class="single__news">
+                        <div class="thumb">
+
+                            <img src="{{asset('frontend/img/news/1.png')}}" alt="">
+
+                            <span class="badge bandge_2">By: Hasnur Jahan</span>
+                        </div>
+                        <div>
+
+                            <h4 class="para">Those Other College Expenses You
+                                Aren’t Thinking About</h4>
+                            </a>
+                            <p class="d-flex align-items-center">
+                                <span><i class="flaticon-calendar-1"></i> May 10, 2020</span><p>
+
+                            <div>
+                                <a href="/questiondetails" class="boxed-btn5">View Details</a>
+                            </div>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="single__news">
+                        <div class="thumb">
+
+                            <img src="{{asset('frontend/img/news/1.png')}}" alt="">
+
+                            <span class="badge bandge_2">By: Hasnur Jahan</span>
+                        </div>
+                        <div>
+
+                            <h4 class="para">Those Other College Expenses You
+                                Aren’t Thinking About</h4>
+                            </a>
+                            <p class="d-flex align-items-center">
+                                <span><i class="flaticon-calendar-1"></i> May 10, 2020</span><p>
+
+                            <div>
+                                <a href="/questiondetails" class="boxed-btn5">View Details</a>
+                            </div>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="single__news">
+                        <div class="thumb">
+
+                            <img src="{{asset('frontend/img/news/1.png')}}" alt="">
+
+                            <span class="badge bandge_2">By: Hasnur Jahan</span>
+                        </div>
+                        <div>
+                            <h4 class="para">Those Other College Expenses You
+                                Aren’t Thinking About</h4>
+                            
+                            <p class="d-flex align-items-center">
+                                <span><i class="flaticon-calendar-1"></i> May 10, 2020</span><p>
+
+                            <div>
+                                <a href="/questiondetails" class="boxed-btn5">View Details</a>
+                            </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <section class="blog_area section-padding">
+
+            <div class="col-lg-12">
+               <div class="blog_right_sidebar">
+                  <aside class="single_sidebar_widget search_widget">
+                     <form action="#">
+                        <div class="form-group">
+                           <div class="input-group mb-3">
+                              <input type="text" class="form-control" placeholder='Search Keyword'
+                                 onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search Keyword'">
+                              <div class="input-group-append">
+                                 <button class="btn" type="button"><i class="ti-search"></i></button>
+                              </div>
+                           </div>
+                        </div>
+                        <button class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn"
+                           type="submit">Search</button>
+                     </form>
+                  </aside>
+
+               </div>
+            </div>
+
+            
+            </div>
+        </div>
+    </section>
+   
+@endsection

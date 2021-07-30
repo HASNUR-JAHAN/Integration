@@ -101,6 +101,7 @@
                                                 <li class="btn"><a href="/">home</a></li>
                                                 <li><a href="/allproject">Projects</a></li>
                                                 <li><a href="/allblog">Blog</a></li>
+                                                <li><a href="/allpublication">Publication</a></li>
                                                 <li><a href="/allquestion">Questions</a></li>
                                                 <li><a href="/allcircular">Circular</a></li>
                                                 <li><a href="/profile">My Profile</a></li>

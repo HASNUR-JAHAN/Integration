@@ -75,7 +75,7 @@
                             <div class="thumb">
 
                                 <img src="{{ URL::to($project->image) }}" style="height: 250px;width=100px;" alt="">
-
+                                
                             </div>
                             <div class="news_info">
 
@@ -182,47 +182,23 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4">
+            <div class="col-md-4">
                     <div class="single__news">
                         <div class="thumb">
 
                             <img src="{{asset('frontend/img/news/1.png')}}" alt="">
 
-                            <span class="badge bandge_2">Group Study</span>
+                            <span class="badge bandge_2">By: Hasnur Jahan</span>
                         </div>
-                        <div class="news_info">
+                        <div>
 
-                            <h4>Those Other College Expenses You
-                                Aren’t Thinking About</h4>
-
-                            <p class="d-flex align-items-center"> <span><i class="flaticon-calendar-1"></i> May 10, 2020</span>
-
-                                <span> <i class="flaticon-comment"></i> 01 comments</span>
-                            </p>
-                            <div class="space" style="padding-left: 20px">
-                                <a href="/questiondetails" class="boxed-btn5">View Details</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="single__news">
-                        <div class="thumb">
-
-                            <img src="{{asset('frontend/img/news/1.png')}}" alt="">
-
-                            <span class="badge bandge_2">Group Study</span>
-                        </div>
-                        <div class="news_info">
-
-                            <h4>Those Other College Expenses You
+                            <h4 class="para">Those Other College Expenses You
                                 Aren’t Thinking About</h4>
                             </a>
                             <p class="d-flex align-items-center">
-                                <span><i class="flaticon-calendar-1"></i> May 10, 2020</span>
+                                <span><i class="flaticon-calendar-1"></i> May 10, 2020</span><p>
 
-                                <span> <i class="flaticon-comment"></i> 01 comments</span>
-                            <div class="space" style="padding-left: 20px">
+                            <div>
                                 <a href="/questiondetails" class="boxed-btn5">View Details</a>
                             </div>
                             </p>
@@ -234,24 +210,48 @@
                     <div class="single__news">
                         <div class="thumb">
 
-                            <img src="{{asset('frontend/img/news/2.png')}}" alt="">
+                            <img src="{{asset('frontend/img/news/1.png')}}" alt="">
 
-                            <span class="badge bandge_2">Hall Life</span>
+                            <span class="badge bandge_2">By: Hasnur Jahan</span>
                         </div>
-                        <div class="news_info">
+                        <div>
 
-                            <h4>Those Other College Expenses You
+                            <h4 class="para">Those Other College Expenses You
                                 Aren’t Thinking About</h4>
                             </a>
-                            <p class="d-flex align-items-center"> <span><i class="flaticon-calendar-1"></i> May 10, 2020</span>
+                            <p class="d-flex align-items-center">
+                                <span><i class="flaticon-calendar-1"></i> May 10, 2020</span><p>
 
-                                <span> <i class="flaticon-comment"></i> 01 comments</span>
-                            </p>
-                            <div class="space" style="padding-left: 20px">
+                            <div>
                                 <a href="/questiondetails" class="boxed-btn5">View Details</a>
                             </div>
-                        </div>
+                            </p>
 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="single__news">
+                        <div class="thumb">
+
+                            <img src="{{asset('frontend/img/news/1.png')}}" alt="">
+
+                            <span class="badge bandge_2">By: Hasnur Jahan</span>
+                        </div>
+                        <div>
+
+                            <h4 class="para">Those Other College Expenses You
+                                Aren’t Thinking About</h4>
+                            </a>
+                            <p class="d-flex align-items-center">
+                                <span><i class="flaticon-calendar-1"></i> May 10, 2020</span><p>
+
+                            <div>
+                                <a href="/questiondetails" class="boxed-btn5">View Details</a>
+                            </div>
+                            </p>
+
+                        </div>
                     </div>
                 </div>
 
