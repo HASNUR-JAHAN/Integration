@@ -75,16 +75,16 @@
                             <div class="thumb">
 
                                 <img src="{{ URL::to($project->image) }}" style="height: 250px;width=100px;" alt="">
-                                
+                                <span class="badge bandge_2">Category: Web Application</span>
                             </div>
                             <div class="news_info">
 
-                                <h4>{{ $project->name }}</h4>
-                                <p>{{ $project->description }}
-                                </p>
+                                <h4>{{ substr(strip_tags($project->name ), 0, 40) }} ..</h4>
+                                <p>{{ substr(strip_tags($project->description ), 0, 50) }} ....</p>
+                                
                                 <p class="d-flex align-items-center">
                                     <span><i class="flaticon-calendar-1"></i> {{ $project->updated_at }}</span>
-
+                                      
                                     <span> <i class="flaticon-comment"></i> 01 comments</span>
                                 <div class="space" >
                                     <a href="{{ URL::to('/view/project/'.$project->id) }}" class="boxed-btn5">View Details</a>

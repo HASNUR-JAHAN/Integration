@@ -69,6 +69,11 @@
                         <div class="form-group">
                            <input class="form-control" name="image" type="file" placeholder="Share Your project home page UI">
                         </div>
+                        
+                        <h4>Project Documentation</h4>
+                        <div class="form-group">
+                           <input class="form-control" name="" type="file" placeholder="Share Your project document here">
+                        </div>
                      </div>
 
                   </div>

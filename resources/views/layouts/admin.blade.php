@@ -245,7 +245,7 @@
     </main>
     <!-- /.content-wrapper -->
     <footer class="main-footer" style="text-align: center;">
-      <strong>Copyright 2021 © All rights reserved by ACNA Team</strong>
+      <strong>Copyright 2021 © All rights reserved by Hasnur Jahan</strong>
       <div class="float-right d-none d-sm-inline-block">
 
       </div>

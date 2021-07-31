@@ -66,11 +66,11 @@
                         <div class="col-lg-6 col-md-6">
                             <div class="single__program">
                                 <div class="program_thumb">
-                                    <img src="{{ URL::to($blog->image) }}" style="height: 150px;width:50;" alt="">
+                                    <img src="{{ URL::to($blog->image) }}" style="height:150px; width:100%;" alt="">
                                     
                                 </div>
+                                
                                 <br>
-                            <br>
                                 <div class="program__content">
                                     <span>category: {{ $blog->blogcategory }}</span>
                                     <h4> {{ $blog->blogname }}</h4>
@@ -85,18 +85,12 @@
                         @endforeach
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="course_all_btn text-center">
-                        <a href="/allblog" class="boxed-btn4">View All</a>
-                    </div>
-                </div>
-            </div>    
+            </div>  
         </div>
       </div>
 
-                 <div class="col-lg-4">
+            <!-- Side Bar-->
+             <div class="col-lg-4">
                <div class="blog_right_sidebar">
                   <aside class="single_sidebar_widget search_widget">
                      <form action="#">
@@ -114,62 +108,73 @@
                      </form>
                   </aside>
                   <aside class="single_sidebar_widget post_category_widget">
-                     <h4 class="widget_title">Category</h4>
-                     <ul class="list cat-list">
-                        <li>
-                           <a href="/oneblog" class="d-flex">
-                              <p>Website</p>
-                              <p>(10)</p>
-                           </a>
-                        </li>
-                       
-                          
-                        <li>
-                           <a href="/oneblog" class="d-flex">
-                              <p>Artificial Intelligence</p>
-                              <p>(03)</p>
-                           </a>
-                        </li>
-                        <li>
-                           <a href="/oneblog" class="d-flex">
-                              <p>Others</p>
-                              <p>(21)</p>
-                           </a>
-                        </li>
-                     </ul>
-                  </aside>
-                  <aside class="single_sidebar_widget popular_post_widget">
-                     <h3 class="widget_title">Recent Post</h3>
-                     <div class="media post_item">
-                        <img src="{{asset('frontend/img/post/post_1.png')}}" alt="post">
-                        <div class="media-body">
-                           <a href="single-blog.html">
-                              <h3>From life was you fish...</h3>
-                           </a>
-                           <p>January 12, 2019</p>
-                        </div>
-                     </div>
-                     <div class="media post_item">
-                        <img src="{{asset('frontend/img/post/post_2.png')}}" alt="post">
-                        <div class="media-body">
-                           <a href="single-blog.html">
-                              <h3>The Amazing Hubble</h3>
-                           </a>
-                           <p>02 Hours ago</p>
-                        </div>
-                     </div>
-                    
-                     <div class="media post_item">
-                        <img src="{{asset('frontend/img/post/post_4.png')}}" alt="post">
-                        <div class="media-body">
-                           <a href="single-blog.html">
-                              <h3>Asteroids telescope</h3>
-                           </a>
-                           <p>01 Hours ago</p>
-                        </div>
-                     </div>
-                  </aside>
+                  <aside class="single_sidebar_widget post_category_widget">
+                        <h4 class="widget_title">Category</h4>
+                        <ul class="list cat-list">
+                            <li>
+                                <a href="/allproject" class="d-flex">
+                                    <p>Web Application</p>
+                                    <p>(20)</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/allproject" class="d-flex">
+                                    <p>Android Application</p>
+                                    <p>(10)</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/allproject" class="d-flex">
+                                    <p>Mechine Learning</p>
+                                    <p>(11)</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/allproject" class="d-flex">
+                                    <p>Artificial Intelligence</p>
+                                    <p>(20)</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/allproject" class="d-flex">
+                                    <p>Others</p>
+                                    <p>(10)</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/allproject" class="d-flex">
+                                    <p>Robotics</p>
+                                    <p>(11)</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/allproject" class="d-flex">
+                                    <p>Cyber Security</p>
+                                    <p>(15)</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </aside>
 
+  <aside class="single_sidebar_widget popular_post_widget">
+                    
+                        <h3 class="widget_title">Recent Post</h3>
+                        @foreach ($blogs as $blog)
+                        <div class="media post_item">
+                            <img src="{{ URL::to($blog->image) }}" style="height:50%; width:50%;" alt="post">
+                            <div class="media-body">
+                                <a href="/projectdetails">
+                                    
+                                    <h3>{{ substr(strip_tags($blog->blogname), 0, 15) }}....</h3>
+
+                                </a>
+                                <p>January 12, 2019</p>
+                            </div>
+
+                        </div>
+                        @endforeach
+
+                    </aside>
                </div>
             </div>
 
