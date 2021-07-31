@@ -101,6 +101,7 @@
                                                 <li class="btn"><a href="/">home</a></li>
                                                 <li><a href="/allproject">Projects</a></li>
                                                 <li><a href="/allblog">Blog</a></li>
+                                                <li><a href="/allpublication">Publication</a></li>
                                                 <li><a href="/allquestion">Questions</a></li>
                                                 <li><a href="/allcircular">Circular</a></li>
                                                 <li><a href="/profile">My Profile</a></li>
@@ -219,7 +220,7 @@
                     <div class="col-xl-12">
                         <p class="copy_right text-center">
                         <p style="text-align: center;">
-                            Copyright © All rights reserved by ACNA Team
+                            Copyright © All rights reserved by Hasnur Jahan
                         </p>
                         </p>
                     </div>

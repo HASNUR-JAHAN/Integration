@@ -37,7 +37,9 @@ Route::get('/profile', [UserProfile::class, 'profile']);
 //Route::get('/profile',[UserProfile::class,'profileinformation']);
 
 
-Route::get('/addpublication',[PublicationController::class,'index'])->name('addpublication');
+Route::get('/allpublication',[PublicationController::class,'index'])->name('allpublication');
+Route::get('/addpublication',[PublicationController::class,'addpublication'])->name('addpublication');
+Route::get('/publicationdetails',[PublicationController::class,'publicationdetails'])->name('publicationdetails');
 
 Route::get('addcircular', function () {
     return view('user.addcircular');
@@ -45,17 +47,6 @@ Route::get('addcircular', function () {
 
 Route::get('addquestion', function () {
     return view('user.addquestion');
-});
-
-
-
-
-Route::get('allquestion', function () {
-    return view('user.allquestion');
-});
-
-Route::get('allcircular', function () {
-    return view('user.allcircular');
 });
 
 
@@ -76,12 +67,15 @@ Route::get('oneblog', function () {
     return view('user.oneblog');
 });
 
-Route::get('oneproject', function () {
-    return view('user.oneproject');
+
+
+Route::get('allquestion', function () {
+    return view('user.allquestion');
 });
 
-Route::get('onequestion', function () {
-    return view('user.onequestion');
+
+Route::get('allcircular', function () {
+    return view('user.allcircular');
 });
 
 

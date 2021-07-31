@@ -34,7 +34,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section_title text-center">
-                        <h3>CIRCULAR</h3>
+                        <h2>Latest Job Opportunity notice by the members of our versity are there.
+</h2>
                     </div>
                 </div>
             </div>

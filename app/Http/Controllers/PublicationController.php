@@ -13,7 +13,18 @@ class PublicationController extends Controller
     }
     public function index()
     {    
+        return view('user.allpublication');
+
+    }
+    public function addpublication()
+    {    
         return view('user.addpublication');
 
     }
+    public function publicationdetails()
+    {    
+        return view('user.publicationdetails');
+
+    }
+    
 }

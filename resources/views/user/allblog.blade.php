@@ -37,7 +37,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section_title text-center">
-                        <h3>BLOG</h3>
+                        <h2>Publish your passions your way. Whether you'd like to share your knowledge, experiences or the latest news, create a unique and beautiful blog for free.</h2>
                     </div>
                 </div>
             </div>
@@ -69,6 +69,7 @@
                                     <img src="{{ URL::to($blog->image) }}" style="height: 150px;width:50;" alt="">
                                     
                                 </div>
+                                <br>
                             <br>
                                 <div class="program__content">
                                     <span>category: {{ $blog->blogcategory }}</span>
@@ -77,6 +78,7 @@
                                         <!-- {{ strlen(strip_tags($blog->blogdetails)) > 20 ? "...ReadMore" : "" }}  -->
                                     </p>
                                     <a href="{{ URL::to('/view/blog/'.$blog->id) }}" class="boxed-btn5">View Details</a>
+                                    <br> <br>
                                 </div>
                             </div>
                         </div>
@@ -84,19 +86,16 @@
                     </div>
                 </div>
             </div>
-                      <br>
             <div class="row">
                 <div class="col-lg-12">
                     <div class="course_all_btn text-center">
                         <a href="/allblog" class="boxed-btn4">View All</a>
                     </div>
                 </div>
-            </div>
-                     
-   
-                   
-                    </div>
-                </div>
+            </div>    
+        </div>
+      </div>
+
                  <div class="col-lg-4">
                <div class="blog_right_sidebar">
                   <aside class="single_sidebar_widget search_widget">

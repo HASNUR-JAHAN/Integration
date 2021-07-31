@@ -27,7 +27,22 @@
 <!-- bradcam_area_end  -->
 
 
-<!--================Blog Area =================-->
+<!--================Project Area =================-->
+<div class="container">
+           
+           
+           <div class="row">
+               <div class="col-lg-12">
+                   <div class="section_title text-center">
+                       <h2>Check out these great side projects, from podcasts and blogs to inventions and small businesses—and use them as inspiration for your own project idea.
+</h2>
+                   </div>
+               </div>
+           </div>
+          
+       </div>
+
+       
 <section class="blog_area section-padding">
     <div class="container">
 
@@ -65,7 +80,6 @@
                             </div>
                         </div>
                     </div>
-                    <br>
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="course_all_btn text-center">
@@ -73,9 +87,6 @@
                             </div>
                         </div>
                     </div>
-
-
-
                 </div>
             </div>
             <!-- Side Bar-->
