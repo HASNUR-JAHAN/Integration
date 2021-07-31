@@ -52,12 +52,7 @@
             <div class="row">
                 <div class="col-lg-8 mb-5 mb-lg-0">
                     <div class="blog_left_sidebar">
-                       
-                       <div class="col-lg-12">
-                    <div class="section text-center">
-                        <h1 class="pb-5">Posts</h1>
-                    </div>
-                </div>
+
            
              <div class="tab-content" id="nav-tabContent">
                 <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
@@ -85,13 +80,14 @@
                         @endforeach
                     </div>
                 </div>
-            </div>  
+            </div>
+ 
         </div>
       </div>
 
             <!-- Side Bar-->
              <div class="col-lg-4">
-               <div class="blog_right_sidebar">
+             <div class="blog_right_sidebar">
                   <aside class="single_sidebar_widget search_widget">
                      <form action="#">
                         <div class="form-group">
@@ -156,7 +152,7 @@
                         </ul>
                     </aside>
 
-  <aside class="single_sidebar_widget popular_post_widget">
+                     <aside class="single_sidebar_widget popular_post_widget">
                     
                         <h3 class="widget_title">Recent Post</h3>
                         @foreach ($blogs as $blog)

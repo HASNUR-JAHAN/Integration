@@ -214,6 +214,15 @@
 
 
             <li class="nav-item ">
+              <a href="{{url('/admin/publication')}}" class="nav-link {{ 'admin/publication'== request()->path() ?  : '' }}">
+                <i class="nav-icon far fa-image"></i>
+                <p>
+                  Publication
+                </p>
+              </a>
+            </li>
+
+            <li class="nav-item ">
               <a href="{{url('/admin/question')}}" class="nav-link {{ 'admin/question'== request()->path() ?  : '' }}">
                 <i class="nav-icon far fa-image"></i>
                 <p>

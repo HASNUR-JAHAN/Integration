@@ -43,60 +43,47 @@
                     </div>
                 </div>
             </div>
-           
-        </div>
+   </div>
 
    
    <section class="blog_area single-post-area section-padding">
       <div class="container">
          <div class="row">
             <div class="col-lg-9 posts-list">
-
-          
                <div class="single-post">
                   <div class="feature-img" name="blogimage">
                      <img class="img-fluid" src="{{ URL::to($blog->image) }}" alt="">
-                     
+                  </div>                                    
+                  <div class="d-flex align-items-center">
+                     <h3>   
+                         <a href="/profile">Author: Hasnur Jahan</a>
+                     </h3>
                   </div>
-                                                        
-                 <div class="d-flex align-items-center">
-                    <h5>   
-                         <a href="#">Emilly Blunt</a>
-                    </h5>
-                    <p class="date">{{ $blog->updated_at }}</p>
-                 </div>
-                             
-          
+                      <h5 class="date">{{ $blog->updated_at }}</h5> 
+
                   <div class="blog_details" name="blogname">
-                     <h2>{{ $blog->blogname }}
-                     </h2>
-                     
+                     <h2>{{ $blog->blogname }}</h2>
+                  <div class="blog_details">
                      <p class="excert" name="blogdetails">
-                     {{ $blog->blogdetails }}
+                       {{ $blog->blogdetails }}
                      </p>
+                  </div>
                      <h2>Provided Link</h2>
                      <div class="quote-wrapper">
                         <div class="quotes" name="bloglink">
                         {{ $blog->bloglink }}
                         </div>
                      </div>
-                  </div>
-               </div>
-
-             
-
-
-
-               <div class="navigation-top">
-                  <div class="d-sm-flex justify-content-between text-center">
-                     <p class="like-info"><span class="align-middle"><i class="fa fa-heart"></i></span> Lily and 4
-                        people like this</p>
                      
                   </div>
-                  
-               </div>
-              
-              <div class="comment-form">
+                  <div class="navigation-top">
+                     <div class="d-sm-flex justify-content-between text-center">
+                       <p class="like-info"><span class="align-middle"><i class="fa fa-heart"></i></span> Lily and 4
+                          people like this
+                       </p>
+                     </div>
+                  </div>
+                  <div class="comment-form">
                   <h4>Leave a Reply</h4>
                   <form class="form-contact comment_form" action="#" id="commentForm">
                      <div class="row">
@@ -105,16 +92,14 @@
                               <textarea class="form-control w-100" name="comment" id="comment" cols="30" rows="3"
                                  placeholder="Write Comment"></textarea>
                            </div>
-                        </div>
-                       
-                        
+                        </div> 
                      </div>
                      <div class="form-group">
                         <button type="submit" class="button button-contactForm btn_1 boxed-btn">Send Message</button>
                      </div>
                   </form>
                </div>
-              
+
                <div class="comments-area">
                   <h4>05 Comments</h4>
                   <div class="comment-list">
@@ -185,15 +170,21 @@
                                     </h5>
                                     <p class="date">December 4, 2017 at 3:12 pm </p>
                                  </div>
-                                
                               </div>
                            </div>
                         </div>
                      </div>
                   </div>
                </div>
-               
             </div>
+         </div>
+      
+              
+
+              
+ 
+               
+            
             <div class="col-lg-3">
                <div class="blog_right_sidebar">
                   <aside class="single_sidebar_widget search_widget">
@@ -214,36 +205,48 @@
                   <aside class="single_sidebar_widget post_category_widget">
                      <h4 class="widget_title">Category</h4>
                      <ul class="list cat-list">
-                        <li>
-                           <a href="/oneblog" class="d-flex">
-                              <p>Website</p>
-                              <p>(10)</p>
-                           </a>
-                        </li>
-                        <li>
-                           <a href="/oneblog" class="d-flex">
-                              <p>App</p>
-                              <p>(10)</p>
-                           </a>
-                        </li>
-                        <li>
-                           <a href="/oneblog" class="d-flex">
-                              <p>Design</p>
-                              <p>(11)</p>
-                           </a>
-                        </li>
-                        <li>
-                           <a href="/oneblog" class="d-flex">
-                              <p>Artificial Intelligence</p>
-                              <p>(03)</p>
-                           </a>
-                        </li>
-                        <li>
-                           <a href="/oneblog" class="d-flex">
-                              <p>Others</p>
-                              <p>(21)</p>
-                           </a>
-                        </li>
+                     <li>
+                                <a href="/allproject" class="d-flex">
+                                    <p>Web Application</p>
+                                    <p>(20)</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/allproject" class="d-flex">
+                                    <p>Android Application</p>
+                                    <p>(10)</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/allproject" class="d-flex">
+                                    <p>Mechine Learning</p>
+                                    <p>(11)</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/allproject" class="d-flex">
+                                    <p>Artificial Intelligence</p>
+                                    <p>(20)</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/allproject" class="d-flex">
+                                    <p>Others</p>
+                                    <p>(10)</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/allproject" class="d-flex">
+                                    <p>Robotics</p>
+                                    <p>(11)</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/allproject" class="d-flex">
+                                    <p>Cyber Security</p>
+                                    <p>(15)</p>
+                                </a>
+                            </li>
                      </ul>
                   </aside>
                   <aside class="single_sidebar_widget popular_post_widget">

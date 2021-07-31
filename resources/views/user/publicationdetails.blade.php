@@ -34,12 +34,11 @@
                <div class="single-post">
                   <div class="feature-img">
                      <img class="img-fluid" src="{{asset('frontend/img/publication1.PNG')}}" alt="">
-                  </div>
-                                                        
+                  </div>                                   
                  <div class="d-flex align-items-center">
                     <h3>   
-                         <a href="#">Author: Emilly Blunt</a></h3>
-                    
+                         <a href="/profile">Author: Hasnur Jahan</a>
+                    </h3>
                  </div>
                  <h5>December 4, 2017 at 3:12 pm </h5>        
           

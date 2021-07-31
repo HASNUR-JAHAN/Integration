@@ -117,6 +117,10 @@ Route::group(['prefix' => 'admin'], function () {
             return view('admin.question');
         });
 
+        Route::get('/publication', function () {
+            return view('admin.publication');
+        });
+
         Route::get('/circular', function () {
             return view('admin.circular');
         });

@@ -104,6 +104,7 @@
                 <thead>
                   <tr>
                     <th>ID</th>
+                    <th>Blog category</th>
                     <th>Title</th>
                     <th>Description</th>
                     <th>Project link</th>
@@ -115,9 +116,10 @@
                   @foreach ($projects as $project)
                   <tr>
                     <td>{{ $project->id}}</td>
-                    <td>{{ $project->name}}</td>
+                    <td>Web Application</td>
+                    <td>{{substr(strip_tags($project->name),0,10) }}...</td>
                     <td>
-                      <p>{{ $project->description }} </p>
+                      <p>{{ substr(strip_tags($project->description), 0, 10) }}...</p>
                     </td>
                     <td><a>{{$project->projectlink}}</a></td>
                     <td> <img src="{{ URL::to($project->image) }}" style="height: 30px;width:90;" alt=""></td>
@@ -219,6 +221,58 @@
 
         <br>
 
+
+
+        <div class="col-12">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="card-title">Publication</h3>
+
+
+            </div>
+            <!-- /.card-header -->
+            <div class="card-body table-responsive p-0">
+              <table class="table table-hover text-nowrap">
+                <thead>
+                  <tr>
+                    <th>ID</th>
+                    <th>User</th>
+                    <th>Publication category</th>
+
+                    <th>Publication details</th>
+                    <th>shared link</th>
+
+                    <th>share image</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>183</td>
+                    <td>John Doe</td>
+                    <td>11-7-2014</td>
+                    <td><span class="tag tag-success">Approved</span></td>
+                    <td>Bacon ipsum dolor </td>
+
+
+                    <td>11-7-2014</td>
+
+                    <td>
+                      <button type="button" class="btn btn-info">View</button>
+                      <button type="button" class="btn btn-success">Accept</button>
+                      <button type="button" class="btn btn-danger">Delete</button>
+                    </td>
+                  </tr>
+
+                </tbody>
+              </table>
+            </div>
+            <!-- /.card-body -->
+          </div>
+          <!-- /.card -->
+        </div>
+
+        <br>
 
 
 
