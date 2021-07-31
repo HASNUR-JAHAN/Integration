@@ -51,19 +51,19 @@
 
 
                <div class="blog_details" name="blogname">
-                  <h2>{{ $Project->name }}
-                  </h2>
-
+                  <h2>{{ $Project->name }}</h2></div>
+<div class="blog_details">
                   <p class="excert" name="blogdetails">
                      {{ $Project->description }}
                   </p>
+</div>
                   <h2>Provided Link</h2>
                   <div class="quote-wrapper">
                      <div class="quotes" name="bloglink">
                         {{ $Project->projectlink}}
                      </div>
                   </div>
-               </div>
+               
             </div>
             <div class="navigation-top">
                <div class="d-sm-flex justify-content-between text-center">
