@@ -176,14 +176,13 @@
                     <div class="single__news">
                         <div class="thumb">
 
-                            <img src="{{asset('frontend/img/news/1.png')}}" alt="">
+                            <img src="{{asset('frontend/img/publication1.PNG')}}" style="height: 250px;width=100px;"  alt="">
 
                             <span class="badge bandge_2">By: Hasnur Jahan</span>
                         </div>
                         <div class="news_info">
 
-                            <h4>Those Other College Expenses You
-                                Aren’t Thinking About</h4>
+                            <h4>FINTECH - in the context of Bangladesh</h4>
 
                             <p class="d-flex align-items-center"> <span><i class="flaticon-calendar-1"></i> May 10, 2020</span>
 
@@ -199,14 +198,13 @@
                     <div class="single__news">
                         <div class="thumb">
 
-                            <img src="{{asset('frontend/img/news/1.png')}}" alt="">
+                            <img src="{{asset('frontend/img/publication2.PNG')}}"style="height: 250px;width=100px;"   alt="">
 
                             <span class="badge bandge_2">By: Hasnur Jahan</span>
                         </div>
                         <div class="news_info">
 
-                            <h4>Those Other College Expenses You
-                                Aren’t Thinking About</h4>
+                            <h4>Thousands displaced as floods hit Bangladesh Rohingya....</h4>
                             </a>
                             <p class="d-flex align-items-center">
                                 <span><i class="flaticon-calendar-1"></i> May 10, 2020</span>
@@ -224,14 +222,13 @@
                     <div class="single__news">
                         <div class="thumb">
 
-                            <img src="{{asset('frontend/img/news/2.png')}}" alt="">
+                            <img src="{{asset('frontend/img/publication3.PNG')}}" style="height: 250px;width=100px;"  alt="">
 
-                            <span class="badge bandge_2">Hall Life</span>
+                            <span class="badge bandge_2">Author: Hasnur Jahan</span>
                         </div>
                         <div class="news_info">
 
-                            <h4>Those Other College Expenses You
-                                Aren’t Thinking About</h4>
+                            <h4>Axiata seeks 66pc stake in Indonesia's Link Net</h4>
                             </a>
                             <p class="d-flex align-items-center"> <span><i class="flaticon-calendar-1"></i> May 10, 2020</span>
 
@@ -275,7 +272,7 @@
 
                             <img src="{{asset('frontend/img/news/1.png')}}" alt="">
 
-                            <span class="badge bandge_2">By: Hasnur Jahan</span>
+                            <span class="badge bandge_2">Author: Hasnur Jahan</span>
                         </div>
                         <div class="news_info">
 
@@ -298,7 +295,7 @@
 
                             <img src="{{asset('frontend/img/news/1.png')}}" alt="">
 
-                            <span class="badge bandge_2">By: Hasnur Jahan</span>
+                            <span class="badge bandge_2">Author: Hasnur Jahan</span>
                         </div>
                         <div class="news_info">
 

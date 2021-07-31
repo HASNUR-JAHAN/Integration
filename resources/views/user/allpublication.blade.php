@@ -16,7 +16,7 @@
                 <div class="col-xl-12">
                     <div class="bradcam_text">
                        
-                        <h5 class="anu"><a href="/addquestion">ADD NEW PUBLICATION</a></h5>
+                        <h5 class="anu"><a href="/addpublication">ADD NEW PUBLICATION</a></h5>
                     </div>
                 </div>
             </div>
@@ -27,7 +27,7 @@
 
 
     <!--================Blog Area =================-->
-    <div class="recent_news_area section__padding">
+<div class="recent_news_area section__padding">
     
     <div class="container">
             <div class="row justify-content-center">
@@ -43,14 +43,13 @@
                     <div class="single__news">
                         <div class="thumb">
 
-                            <img src="{{asset('frontend/img/news/1.png')}}" style="height:30%;width:80%;!" alt="">
+                            <img src="{{asset('frontend/img/publication1.PNG')}}" style="height:30%;width:100%;!" alt="">
 
-                            <span class="badge bandge_2">By: Hasnur Jahan</span>
+                            <span class="badge bandge_2">Author: Hasnur Jahan</span>
                         </div>
                         <div>
 
-                            <h1>Those Other College Expenses You
-                                Aren’t Thinking About</h1>
+                            <h1>FINTECH - in the context of Bangladesh</h1>
                             </a>
                             <p class="d-flex align-items-center">
                                 <span><i class="flaticon-calendar-1"></i> May 10, 2020</span><p>
@@ -67,14 +66,13 @@
                     <div class="single__news">
                         <div class="thumb">
 
-                            <img src="{{asset('frontend/img/news/1.png')}}" style="height:30%;width:80%;!" alt="">
+                            <img src="{{asset('frontend/img/publication2.PNG')}}" style="height:30%;width:100%;!" alt="">
 
-                            <span class="badge bandge_2">By: Hasnur Jahan</span>
+                            <span class="badge bandge_2">Author: Hasnur Jahan</span>
                         </div>
                         <div>
 
-                            <h1>Those Other College Expenses You
-                                Aren’t Thinking About</h1>
+                            <h1>Thousands displaced as floods hit Bangladesh Rohingya camps</h1>
                             </a>
                             <p class="d-flex align-items-center">
                                 <span><i class="flaticon-calendar-1"></i> May 10, 2020</span><p>
@@ -91,14 +89,13 @@
                     <div class="single__news">
                         <div class="thumb">
 
-                            <img src="{{asset('frontend/img/news/1.png')}}" style="height:30%;width:80%;!" alt="">
+                            <img src="{{asset('frontend/img/publication3.PNG')}}" style="height:30%;width:100%;!" alt="">
 
-                            <span class="badge bandge_2">By: Hasnur Jahan</span>
+                            <span class="badge bandge_2">Author: Hasnur Jahan</span>
                         </div>
                         <div>
 
-                            <h1>Those Other College Expenses You
-                                Aren’t Thinking About</h1>
+                            <h1>Axiata seeks 66pc stake in Indonesia's Link Net</h1>
                             </a>
                             <p class="d-flex align-items-center">
                                 <span><i class="flaticon-calendar-1"></i> May 10, 2020</span><p>
@@ -112,16 +109,6 @@
                 </div>
 
             </div>
-            
-        </div>
-        
-    </div>
-</div>
-
-
-
-    <section class="blog_area section-padding">
-
             <div class="col-lg-12">
                <div class="blog_right_sidebar">
                   <aside class="single_sidebar_widget search_widget">
@@ -146,6 +133,23 @@
             
             </div>
         </div>
+
+        </div>
+        
+        
+
+    </div>
+    
+    
+</div>
+
+
+
+    <section class="blog_area section-padding">
+
     </section>
+
+
+    
    
 @endsection
