@@ -8,6 +8,7 @@ use App\Http\Controllers\PublicationController;
 use App\Http\Controllers\UserProfile;
 use App\Http\Controllers\AdminBlog;
 use App\Http\Controllers\AdminProjectController;
+use App\Http\Controllers\MemberController;
 use App\Http\Controllers\ProjectController;
 
 /*
@@ -27,6 +28,7 @@ Route::get('/allproject', [ProjectController::class, 'allproject'])->name('allpr
 Route::get('/addproject', [ProjectController::class, 'addproject']);
 Route::post('/createProject', [ProjectController::class, 'store'])->name('createProject');
 Route::get('/view/project/{id}', [ProjectController::class, 'singleproject']);
+Route::get('/member', [MemberController::class, 'index'])->name('member');
 
 
 Route::get('/addblog', [BlogController::class, 'index'])->name('addblog');
@@ -37,9 +39,9 @@ Route::get('/profile', [UserProfile::class, 'profile']);
 //Route::get('/profile',[UserProfile::class,'profileinformation']);
 
 
-Route::get('/allpublication',[PublicationController::class,'index'])->name('allpublication');
-Route::get('/addpublication',[PublicationController::class,'addpublication'])->name('addpublication');
-Route::get('/publicationdetails',[PublicationController::class,'publicationdetails'])->name('publicationdetails');
+Route::get('/allpublication', [PublicationController::class, 'index'])->name('allpublication');
+Route::get('/addpublication', [PublicationController::class, 'addpublication'])->name('addpublication');
+Route::get('/publicationdetails', [PublicationController::class, 'publicationdetails'])->name('publicationdetails');
 
 Route::get('addcircular', function () {
     return view('user.addcircular');

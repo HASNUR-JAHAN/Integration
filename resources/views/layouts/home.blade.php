@@ -104,6 +104,7 @@
                                                 <li><a href="/allpublication">Publication</a></li>
                                                 <li><a href="/allquestion">Questions</a></li>
                                                 <li><a href="/allcircular">Circular</a></li>
+                                                <li><a href="/member">Members</a></li>
                                                 <li><a href="/profile">My Profile</a></li>
                                             </ul>
                                         </nav>
