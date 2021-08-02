@@ -24,24 +24,7 @@
       </div>
   </div>
   <!-- bradcam_area_end  -->
-     <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section text-center">
-                        <h2>CATEGORY</h2>
-                    </div>
-                </div>
-            </div>
-           
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section_title text-center">
-                        <h3>WEBSITE</h3>
-                    </div>
-                </div>
-            </div>
-           
-        </div>
+
    <!--================Blog Area =================-->
    
    
@@ -51,19 +34,19 @@
             <div class="col-lg-9 posts-list">
                <div class="single-post">
                   <div class="feature-img">
-                     <img class="img-fluid" src="{{asset('frontend/img/how-to-make-a-website.png')}}" alt="">
+                     <img class="img-fluid" src="{{asset('frontend/img/white-box-testing.jpg')}}" alt="">
                   </div>
                                                         
-                 <div class="d-flex align-items-center">
-                    <h5>   
-                         <a href="#">Emilly Blunt</a>
-                    </h5><br>
-                    <p class="date">December 4, 2017 at 3:12 pm </p>
+                  <div class="d-flex align-items-center">
+                    <h3>   
+                         <a href="/profile">Author: Hasnur Jahan</a>
+                    </h3>
                  </div>
+                 <h5>December 4, 2017 at 3:12 pm </h5>  
                              
           
-                  <div class="blog_details" name="questionname">
-                     <h2>How To Make a website step by step?</h2>
+                  <div class="blog_details" name="questiondetails">
+                     <h2>What is testing?</h2>
                                       
                                          
                     
@@ -117,8 +100,7 @@
                            </div>
                            <div class="desc">
                               <p class="comment">
-                                 Multiply sea night grass fourth day sea lesser rule open subdue female fill which them
-                                 Blessed, give fill lesser bearing multiply sea night grass fourth day sea lesser
+                              White Box Testing is software testing technique in which internal structure, design and coding of software are tested to verify flow of input-output and to improve design, usability and security. In white box testing, code is visible to testers so it is also called Clear box testing, Open box testing, Transparent box testing, Code-based testing and Glass box testing.
                               </p>
                               <div class="d-flex justify-content-between">
                                 
@@ -143,8 +125,7 @@
                            </div>
                            <div class="desc">
                               <p class="comment">
-                                 Multiply sea night grass fourth day sea lesser rule open subdue female fill which them
-                                 Blessed, give fill lesser bearing multiply sea night grass fourth day sea lesser
+                              White-box testing (also known as clear box testing, glass box testing, transparent box testing, and structural testing) is a method of software testing that tests internal structures or workings of an application, as opposed to its functionality (i.e. black-box testing). In white-box testing an internal perspective of the system, as well as programming skills, are used to design test cases. The tester chooses inputs to exercise paths through the code and determine the expected outputs. 
                               </p>
                               <div class="d-flex justify-content-between">
                                  <div class="d-flex align-items-center">
@@ -167,8 +148,9 @@
                            </div>
                            <div class="desc">
                               <p class="comment">
-                                 Multiply sea night grass fourth day sea lesser rule open subdue female fill which them
-                                 Blessed, give fill lesser bearing multiply sea night grass fourth day sea lesser
+                              If we go by the definition, “White box testing” (also known as clear, glass box or structural testing) is a testing technique which evaluates the code and the internal structure of a program.
+
+White box testing involves looking at the structure of the code. When you know the internal structure of a product, tests can be conducted to ensure that the internal operations performed according to the specification. And all internal components have been adequately exercised. 
                               </p>
                               <div class="d-flex justify-content-between">
                                  <div class="d-flex align-items-center">
@@ -203,70 +185,27 @@
                            type="submit">Search</button>
                      </form>
                   </aside>
-                  <aside class="single_sidebar_widget post_category_widget">
-                     <h4 class="widget_title">Category</h4>
-                     <ul class="list cat-list">
-                        <li>
-                           <a href="/onequestion" class="d-flex">
-                              <p>Website</p>
-                              <p>(10)</p>
-                           </a>
-                        </li>
-                        <li>
-                           <a href="/onequestion" class="d-flex">
-                              <p>App</p>
-                              <p>(10)</p>
-                           </a>
-                        </li>
-                        <li>
-                           <a href="/onequestion" class="d-flex">
-                              <p>Design</p>
-                              <p>(11)</p>
-                           </a>
-                        </li>
-                        <li>
-                           <a href="/onequestion" class="d-flex">
-                              <p>Artificial Intelligence</p>
-                              <p>(03)</p>
-                           </a>
-                        </li>
-                        <li>
-                           <a href="/onequestion" class="d-flex">
-                              <p>Others</p>
-                              <p>(21)</p>
-                           </a>
-                        </li>
-                     </ul>
-                  </aside>
                   <aside class="single_sidebar_widget popular_post_widget">
                      <h3 class="widget_title">Recent Post</h3>
                      <div class="media post_item">
-                        <img src="{{asset('frontend/img/post/post_1.png')}}" alt="post">
+                        <img src="{{asset('frontend/img/white-box-testing.jpg')}}" style="height:50%; width:50%;" alt="post">
                         <div class="media-body">
                            <a href="/blogdetails">
-                              <h3>From life was you fish...</h3>
-                           </a>
-                           <p>January 12, 2019</p>
-                        </div>
-                     </div>
-                     <div class="media post_item">
-                        <img src="{{asset('frontend/img/post/post_2.png')}}" alt="post">
-                        <div class="media-body">
-                           <a href="/blogdetails">
-                              <h3>The Amazing Hubble</h3>
+                              <h3>What is white box testing?</h3>
                            </a>
                            <p>02 Hours ago</p>
                         </div>
                      </div>
                      <div class="media post_item">
-                        <img src="{{asset('frontend/img/post/post_3.png')}}" alt="post">
+                        <img src="{{asset('frontend/img/What-is-Machine-Learning.jpg')}}" style="height:50%; width:50%;" alt="post">
                         <div class="media-body">
                            <a href="/blogdetails">
-                              <h3>Astronomy Or Astrology</h3>
+                              <h3>What is mechine learning?</h3>
                            </a>
-                           <p>03 Hours ago</p>
+                           <p>January 12, 2019</p>
                         </div>
                      </div>
+
                      
                   </aside>
 

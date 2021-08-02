@@ -60,17 +60,17 @@
                            <textarea class="form-control w-100" name="description" cols="30" rows="9" placeholder="Write Your Project Description Here"></textarea>
                         </div>
 
-                        <h4>Project live/Github link</h4>
+                        <h4>Project live/Github link(If Any)</h4>
                         <div class="form-group">
                            <input class="form-control" name="projectlink" type="text" placeholder="Share your Project live/Github link">
                         </div>
 
-                        <h4>Project Image</h4>
+                        <h4>Project Related Image</h4>
                         <div class="form-group">
                            <input class="form-control" name="image" type="file" placeholder="Share Your project home page UI">
                         </div>
                         
-                        <h4>Project Documentation</h4>
+                        <h4>Project Documentation(If Any)</h4>
                         <div class="form-group">
                            <input class="form-control" name="" type="file" placeholder="Share Your project document here">
                         </div>

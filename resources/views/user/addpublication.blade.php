@@ -57,15 +57,12 @@
                                  placeholder="Write Your Publication Here"></textarea>
                            </div>
                           
-                          <h4>Upload Paper</h4>
+                           <h4>Share Link Of your publications</h4>
                            <div class="form-group">
-                              <input class="form-control" name="bloglink" id="link" type="text" placeholder="Share Your Paper Here">
-                              <div class="form-group">
-                                    <button type="submit" style="width: 1110px; background: white;">UPLOAD</button>
-                                 </div>
+                              <input class="form-control" name="bloglink" id="link" type="text" placeholder="Share Link Here">
                            </div>
                           
-                          <h4>Share Image</h4>
+                          <h4>Share Image Related to your Paper(If Any)</h4>
                            <div class="form-group">
                               <textarea class="form-control w-100" name="blogcomment" id="comment" cols="30" rows="9"
                                  placeholder="Share Image Here"></textarea>

@@ -51,11 +51,6 @@
                      <div class="row">
                         <div class="col-12">
                          
-                         <h4>Question Category</h4>
-                          
-                          <div class="form-group">
-                              <input class="form-control" name="questioncategory" id="name" type="text" placeholder="Write Your QuestionCategory Here">
-                           </div>
                      
                           
                           <h4>Question Details</h4>
@@ -64,18 +59,18 @@
                                  placeholder="Write Your Question Here"></textarea>
                            </div>
                           
-                          <h4>Share Link</h4>
+                          <h4>Share Link(If Any)</h4>
                            <div class="form-group">
                               <input class="form-control" name="bloglink" id="link" type="text" placeholder="Share Link Here">
                            </div>
                           
-                          <h4>Share Image</h4>
+                          <h4>Share Image Related To Your Question</h4>
                            <div class="form-group">
                               <textarea class="form-control w-100" name="blogcomment" id="comment" cols="30" rows="9"
                                  placeholder="Share Image Here"></textarea>
-                                 <center><div class="form-group">
+                                 <div class="form-group">
                                     <button type="submit" style="width: 1110px; background: white;">UPLOAD</button>
-                                 </div></center>
+                                 </div>
                            </div>
                         </div>
 

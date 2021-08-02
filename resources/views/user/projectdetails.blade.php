@@ -229,12 +229,6 @@
                             </li>
                             <li>
                                 <a href="/allproject" class="d-flex">
-                                    <p>Others</p>
-                                    <p>(10)</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/allproject" class="d-flex">
                                     <p>Robotics</p>
                                     <p>(11)</p>
                                 </a>

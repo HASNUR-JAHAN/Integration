@@ -26,9 +26,9 @@
                   <tr>
                     <th>ID</th>
 
-                    <th>blog category</th>
-                    <th>blog name</th>
-                    <th>blog details</th>
+                    <th>Circular category</th>
+                    <th>Circular name</th>
+                    <th>Circular details</th>
                     <th>share link</th>
                     <th>share image</th>
                     <th>Action</th>

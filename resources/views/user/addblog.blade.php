@@ -81,12 +81,12 @@
                                     <textarea class="form-control w-100" name="blogdetails" cols="30" rows="9" placeholder="Write Your Blog Details Here"></textarea>
                                 </div>
 
-                                <h4>Share Link</h4>
+                                <h4>Share Link(If Any)</h4>
                                 <div class="form-group">
                                     <input class="form-control" name="bloglink" type="text" placeholder="Share Link Here">
                                 </div>
 
-                                <h4>Share Image</h4>
+                                <h4>Share Related Image</h4>
                                 <div class="form-group">
                                     <input class="form-control" name="image" type="file" placeholder="Share Link Here">
                                 </div>

@@ -48,14 +48,13 @@
                     <div class="single__news">
                         <div class="thumb">
 
-                            <img src="{{asset('frontend/img/news/1.png')}}" alt="">
+                            <img src="{{asset('frontend/img/white-box-testing.jpg')}}" alt="">
 
                             <span class="badge bandge_2">By: Hasnur Jahan</span>
                         </div>
                         <div class="news_info">
 
-                            <h4>Those Other College Expenses You
-                                Aren’t Thinking About</h4>
+                            <h4>What is white box testing?</h4>
 
                             <p class="d-flex align-items-center"> <span><i class="flaticon-calendar-1"></i> May 10, 2020</span>
 
@@ -71,14 +70,13 @@
                     <div class="single__news">
                         <div class="thumb">
 
-                            <img src="{{asset('frontend/img/news/1.png')}}" alt="">
+                            <img src="{{asset('frontend/img/What-is-Machine-Learning.jpg')}}" alt="">
 
                             <span class="badge bandge_2">By: Hasnur Jahan</span>
                         </div>
                         <div class="news_info">
 
-                            <h4>Those Other College Expenses You
-                                Aren’t Thinking About</h4>
+                            <h4>What is mechine learning?</h4>
                             </a>
                             <p class="d-flex align-items-center">
                                 <span><i class="flaticon-calendar-1"></i> May 10, 2020</span>
@@ -96,14 +94,13 @@
                     <div class="single__news">
                         <div class="thumb">
 
-                            <img src="{{asset('frontend/img/news/2.png')}}" alt="">
+                            <img src="{{asset('frontend/img/download.png')}}" alt="">
 
-                            <span class="badge bandge_2">By: dhjjsxjsajkkjjmjjkjkjk</span>
+                            <span class="badge bandge_2">By: Hasnur Jahan</span>
                         </div>
                         <div class="news_info">
 
-                            <h4>Those Other College Expenses You
-                                Aren’t Thinking About</h4>
+                            <h4>What is github?</h4>
                             </a>
                             <p class="d-flex align-items-center"> <span><i class="flaticon-calendar-1"></i> May 10, 2020</span>
 

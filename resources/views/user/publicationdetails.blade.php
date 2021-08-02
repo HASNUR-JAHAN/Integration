@@ -71,10 +71,10 @@ Rezaul Hossain is a pioneer in MFS sector. He led bKash to its success, and laun
 <p>Sources: World Bank & Bangladesh Bank</p></h4>                                      
                                          
                     <br>
-                     <h3> Get this Documentation</h3>
+                    <h3>Provided Link</h3>
                      <div class="quote-wrapper">
                         <div class="quotes" name="projectlink">
-                           Download PDF
+                           
                         </div>
                      </div>
                   

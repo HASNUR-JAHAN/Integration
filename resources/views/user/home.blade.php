@@ -62,7 +62,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-8 col-md-10">
                 <div class="section_title text-center mb-70">
-                    <h1>All Project</h1>
+                    <h1>PROJECS</h1>
                 </div>
             </div>
         </div>
@@ -103,7 +103,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="course_all_btn text-center">
-                        <a href="/allblog" class="boxed-btn4">View All</a>
+                        <a href="/allproject" class="boxed-btn4">View All</a>
                     </div>
                 </div>
             </div>
@@ -116,7 +116,7 @@
                 <div class="col-lg-8 col-md-10">
                     <div class="section_title text-center mb-70">
 
-                        <h1>BLOG</h1>
+                        <h1>BLOGS</h1>
                     </div>
                 </div>
             </div>
@@ -246,7 +246,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="course_all_btn text-center">
-                        <a href="/allquestion" class="boxed-btn4">View All</a>
+                        <a href="/allpublication" class="boxed-btn4">View All</a>
                     </div>
                 </div>
             </div>
@@ -261,7 +261,7 @@
                 <div class="col-lg-8 col-md-10">
                     <div class="section_title text-center mb-70">
 
-                        <h1>QUESTION</h1>
+                        <h1>QUESTIONS</h1>
                     </div>
                 </div>
             </div>
@@ -270,14 +270,13 @@
                     <div class="single__news">
                         <div class="thumb">
 
-                            <img src="{{asset('frontend/img/news/1.png')}}" alt="">
+                            <img src="{{asset('frontend/img/white-box-testing.jpg')}}" style="height: 250px;width=100px;" alt="">
 
                             <span class="badge bandge_2">Author: Hasnur Jahan</span>
                         </div>
                         <div class="news_info">
 
-                            <h4>Those Other College Expenses You
-                                Aren’t Thinking About</h4>
+                            <h4>What is white box testing?</h4>
 
                             <p class="d-flex align-items-center"> <span><i class="flaticon-calendar-1"></i> May 10, 2020</span>
 
@@ -293,14 +292,13 @@
                     <div class="single__news">
                         <div class="thumb">
 
-                            <img src="{{asset('frontend/img/news/1.png')}}" alt="">
+                            <img src="{{asset('frontend/img/What-is-Machine-Learning.jpg')}}" style="height: 250px;width=100px;" alt="">
 
                             <span class="badge bandge_2">Author: Hasnur Jahan</span>
                         </div>
                         <div class="news_info">
 
-                            <h4>Those Other College Expenses You
-                                Aren’t Thinking About</h4>
+                            <h4>What is mechine learning?</h4>
                             </a>
                             <p class="d-flex align-items-center">
                                 <span><i class="flaticon-calendar-1"></i> May 10, 2020</span>
@@ -318,14 +316,13 @@
                     <div class="single__news">
                         <div class="thumb">
 
-                            <img src="{{asset('frontend/img/news/2.png')}}" alt="">
+                            <img src="{{asset('frontend/img/download.png')}}" style="height: 250px;width=100px;" alt="">
 
-                            <span class="badge bandge_2">By: dhjjsxjsajkkjjmjjkjkjk</span>
+                            <span class="badge bandge_2">By: Hasnur Jahan</span>
                         </div>
                         <div class="news_info">
 
-                            <h4>Those Other College Expenses You
-                                Aren’t Thinking About</h4>
+                            <h4>What is github?</h4>
                             </a>
                             <p class="d-flex align-items-center"> <span><i class="flaticon-calendar-1"></i> May 10, 2020</span>
 
@@ -356,7 +353,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-md-10">
                     <div class="section_title text-center mb-70">
-                        <h1>CIRCULAR</h1>
+                        <h1>CIRCULARS</h1>
                     </div>
                 </div>
             </div>
